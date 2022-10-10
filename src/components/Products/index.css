@@ -1,0 +1,14 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.products-image {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .products-image {
+    width: 25%;
+  }
+}
